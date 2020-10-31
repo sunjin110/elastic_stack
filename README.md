@@ -18,6 +18,7 @@ PUT test_kuromoji_index
   }
 }
 
+
 // fieldに追加
 PUT test_kuromoji_index/_mapping
 {
@@ -69,5 +70,22 @@ GET test_kuromoji_index/_search
   }
 }
 
+
+```
+
+
+```json
+// これでも、追加可能らしい
+PUT my_index
+{
+  "mappings": {
+    "properties": {
+      "blog_message": {
+        "type": "text",
+        "analyzer": "kuromoji"
+      }
+    }
+  }
+}
 
 ```
