@@ -26,3 +26,9 @@ cd kibana-7.9.3-linux-x86_64/
 # bin/kibana
 
 # curl http://localhost:5601/app/home#/
+
+cd ..
+
+# monstache
+wget https://github.com/rwynn/monstache/releases/download/v6.7.0/monstache-dfba1c2.zip
+unzip monstache-dfba1c2.zip -d ./monstache
