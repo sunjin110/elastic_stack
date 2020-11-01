@@ -1,5 +1,4 @@
 #!/bin/sh
 
-./monstache/build/darwin-amd64/monstache
-
-# TODO config
+# 起動
+./monstache/build/darwin-amd64/monstache -f ./config-monstache.toml

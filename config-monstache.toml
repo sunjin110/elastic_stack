@@ -1,0 +1,15 @@
+# mongo connect
+mongo-url = "mongodb://mongo-rep-1:27017"
+
+# elastic connect
+elasticsearch-urls = ["http://localhost:9200"]
+
+# コレクションからインデックスをシードする必要がある場合で、変更イベントをリスンして同期するだけではない場合は
+# MongoDBからElasticsearchにコレクションやビュー全体をコピーすることができます。
+direct-read-namespace = ["alma_db.user_info"]
+
+# MongoDB の変更ストリームを使いたい場合は change-stream-namespaces を使います。
+change-stream-namespaces = []
+
+[[mapping]]
+namespace = "alma_db.user_info"
