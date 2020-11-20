@@ -7,6 +7,7 @@ tar -xzf elasticsearch-7.9.3-darwin-x86_64.tar.gz
 cd elasticsearch-7.9.3/
 
 bin/elasticsearch-plugin install analysis-kuromoji
+bin/elasticsearch-plugin install jettro/elasticsearch-gui 
 
 # Kibana
 cd ..
