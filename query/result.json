@@ -1,14 +1,3825 @@
 {
-    "_index": "my_index",
-    "_type": "_doc",
-    "_id": "1",
-    "_version": 1,
-    "_seq_no": 0,
-    "_primary_term": 1,
-    "found": true,
-    "_source": {
-        "user_name": "sunjin",
-        "message": "hello",
-        "hoge": "aaa"
+    "p2_user.user_giftbox": {
+        "mappings": {
+            "properties": {
+                "ct": {
+                    "type": "date"
+                },
+                "gmap": {
+                    "properties": {
+                        "3609": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                }
+                            }
+                        },
+                        "07fea8be-402e-45d2-9ded-61cf1cf071ff": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "0a64d843-7c0f-4c14-b386-068d080f4bd2": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "12e9344a-5f3c-4734-ae95-aef8cbfb809d": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "14c7d580-01d8-412b-9ee9-b8bd537ca0c5": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "19c55033-19bc-4181-bd3d-1679737842dc": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "1e860828-a2f6-4d5d-9132-71fd9a57b248": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "2117e206-1dc9-4cff-b429-1269b46143e3": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "21494af7-9ed6-41ae-a36d-24eeed925333": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "237198ce-4a2a-496e-bd98-1de6b3bd534c": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "24a3a6c0-1e8a-442c-a43f-32a86d427bc3": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "2d7e97da-f9e0-4666-a778-0ecbad933dcd": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "2de53f29-480e-4e23-a7d4-0c14d55ca05a": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "2fbbadd3-b2fa-4140-9d83-0ad28ae98047": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "34b17159-ad8f-4919-9107-94abf2235916": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3775ce20-b9d5-4654-b039-992023611998": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3819c133-a5e7-4e32-9a70-7ef2de04fa08": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3a35fdcd-fb03-41b6-b9ce-712aa4565933": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3d8f7ba4-ff2e-43b8-9ee0-e9f5ca730745": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3ff0677c-cf72-4b02-a232-328dd599547f": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "4684c002-ca04-4943-ab7a-c46f39467b01": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "48775bb2-1524-4343-bdf0-6af1bce8b32f": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "488f6ad0-7d43-45f5-99db-4ff658c3208e": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "4a104d81-f49e-4261-84fd-42e47cf714ed": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "512d6121-272a-42b7-b0cf-ce29d137da18": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "52ebf61a-b227-4ba5-bec3-4e4375aa79b1": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "53b1f9f4-773a-4be8-a6aa-e6614a531627": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "62a2b8e5-0a2e-4499-a1ae-74d5cef8544b": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "633d486c-7b96-4bbc-b5a8-4ecc40baf589": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "64e24249-e277-4955-9c2a-7198d8f1ddfe": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "6c8b63f4-7763-48c4-aa47-d5db4600d5be": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "6ccd4175-3426-4228-9e22-6c9b550d5ff2": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "6ef21886-8e9c-489d-a22e-4f4570deacc0": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "7071183d-6366-4cc2-b8ff-e3b52e181a77": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "74e4cef7-3408-4e52-8b8e-d152d3146616": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "75d8a128-143b-4cc9-9c20-3b3be1c0f05a": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "79b71c51-a360-46fa-ba01-45054e8bff81": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "7b01f846-d6ef-4409-a301-03cd17cf764e": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "7d36db76-752e-4dc2-a755-bc760e3220a0": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "8bf43b6d-39ba-4994-adc0-af1be775a12b": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "8cf8a2a7-6b0f-4607-93c9-9773846c0cc1": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9184245d-69d8-4477-a2ee-84d030c871f5": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9243d69c-db7e-4df0-a9ef-153220905bd1": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "928f0922-2d24-48ae-9eab-7580dac8bdc0": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9396ae24-17c0-4116-a7b3-3c68f69b1bbf": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "93b363b1-0f88-4c31-8b75-dab87a6665d4": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "97aa6200-747e-40ad-a3be-34769f1d894f": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "99116d39-3679-4ec5-a9b7-2898b483afad": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9e33cec3-2620-44e1-9537-da3c67dd699c": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9e4bcc58-96bc-47e9-a7eb-ef1a63000bd6": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "9ede1790-b829-4533-bb7d-a8debd764203": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a0fced3a-49b3-4f20-b454-7223cc21abcf": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a2cd9b0f-9835-4dfc-890f-3bd51126bde5": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a3b15712-440a-4c0f-9834-742550bf941b": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a4f906c3-5f2c-40e2-a88f-23a684e4ba6a": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a54efd55-88b8-4bf4-8f37-067352f485a4": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a71ab315-9d45-444e-a9f9-bc0e7a88daf3": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "a8501946-5a7f-4de1-a78d-6ef973c94afc": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "aefc7397-bded-49e4-8e3d-b3a0aa3de467": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "b0b81782-b32a-4e0e-b488-f8d371852800": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "b11c12b5-2759-476c-be40-b3fc68694bad": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "b1463bd6-1cac-4fd0-a9f4-c53f868bff5c": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "c1df8a06-1e55-4cb1-b789-b165825257b8": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "c6b8b0aa-ca7a-4043-8e5c-52c151ec2ebc": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "c90c1d9a-fa12-423e-a391-cdcb3697fddc": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "c9828d49-385c-446f-9565-d9260467d4d9": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "cc2d9a67-e829-4fb5-acef-bbe054e425d5": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "d7915390-5911-407c-a8f8-47e2fe3c703b": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "da659bc5-ee12-479f-a651-e2305f739f6c": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "df4504fb-640e-47f6-a695-e9de5c3c1b15": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "e089ca7e-f6c1-4ca8-923f-4748e76c6150": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "e18d4331-d6d1-4e15-a18e-6ec800a11ee7": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "e233710e-0ad2-4e47-ae1f-8fc37fef8ee5": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "e63cb7cb-1349-4826-9d94-3c77caf6bce1": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "eec540a9-59dc-4fa1-b3f2-9ba3048a34ad": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "f1b103ac-f1b0-4d52-aa53-587e3fd45040": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "f308ed44-347d-438a-b668-b75377ad75b3": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "f61ff5a1-0977-47a6-a0bc-0d1b9b631864": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "fc31086a-4794-4588-bbc3-136290855f2a": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "fcedaff7-73f7-491d-b035-85995273b5c6": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "fdea804d-bd03-46d4-859b-05cacb3b60a4": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "feddf6dd-1d55-4862-9056-70974a008c4a": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "et": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gid": {
+                                    "type": "long"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "gseqs": {
+                    "type": "long"
+                },
+                "hmap": {
+                    "properties": {
+                        "3d8f7ba4-ff2e-43b8-9ee0-e9f5ca730745": {
+                            "properties": {
+                                "ct": {
+                                    "type": "date"
+                                },
+                                "frm": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "gct": {
+                                    "type": "date"
+                                },
+                                "itmid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "mid": {
+                                    "type": "long"
+                                },
+                                "qty": {
+                                    "type": "long"
+                                },
+                                "tit": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "txt": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ut": {
+                    "type": "date"
+                }
+            }
+        }
     }
 }
