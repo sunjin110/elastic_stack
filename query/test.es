@@ -194,6 +194,30 @@ PUT p2_community.comm_cocolo_note_page/_mapping
         },
         "cats": { // ArrayObjectでない場合は、このように指定して問題ない
             "type": "integer"
+        },
+        "cmts": { // TODO cmtsの中身は、monstacheのミドルウェアで表示しないようにする
+            "type": "nested",
+            "properties": { // TODO 多分検索で使用しないため、この下の要素のtypeは、index: falseしてもいいかも
+                "id": {
+                    "type": "keyword"
+                },
+                "mid": {
+                    "type": "long"
+                },
+                "cmt": {
+                    "type": "text",
+                    "analyzer": "kuromoji"
+                },
+                "ct": {
+                    "type": "date"
+                },
+                "delete": {
+                    "type": "boolean"
+                },
+                "react": {
+                    "type": "nested"
+                }
+            }
         }
     }
 }
