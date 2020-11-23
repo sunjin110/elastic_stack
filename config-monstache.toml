@@ -18,8 +18,8 @@ direct-read-namespaces = ["P2_COMMUNITY.COMM_COCOLO_NOTE_PAGE"]
 change-stream-namespaces = ["P2_COMMUNITY.COMM_COCOLO_NOTE_PAGE"]
 
 # mappingの設定
-[[mapping]]
-namespace = ""
+# [[mapping]]
+# namespace = ""
 
 # 除外するname spaceを表示
 # direct-read-dynamic-exclude-regex = "p2_user*"

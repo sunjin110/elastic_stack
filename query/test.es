@@ -200,6 +200,15 @@ PUT p2_community.comm_cocolo_note_page/_mapping
 
 GET p2_community.comm_cocolo_note_page/_mapping
 
+GET p2_community.comm_cocolo_note_page/_search
+{
+    "query": {
+        "match": {
+            "title": "水やり"
+        }
+    }
+}
+
 // POST my_index/_doc
 // {
 //     "user_name_2": "今日は本当にいい天気ですね、とてもいい日差しです"
