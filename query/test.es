@@ -192,3 +192,25 @@ GET my_index/_search
 }
 
 
+GET p2_community.comm_cocolo_note_page/_search/
+{
+    "query": {
+        "match_all": {}
+    }
+}
+
+GET  p2_community.comm_cocolo_note_page/_search/
+{
+    "query": {
+        "term": {
+            "oprg": 1  
+        }
+    }
+}
+
+DELETE p2_community.comm_cocolo_note_page/_doc/5fb75f7797d0c4d61531a169
+
+// 5fb75f7797d0c4d61531a169
+
+
+DELETE *
