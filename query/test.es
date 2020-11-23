@@ -175,6 +175,31 @@ PUT my_index/_mapping
   }
 }
 
+PUT p2_community.comm_cocolo_note_page
+
+// ココロノートにmapping情報を追加する
+PUT p2_community.comm_cocolo_note_page/_mapping
+{
+    "properties": {
+        "mid": {
+            "type": "long"
+        },
+        "title": {
+            "type": "text",
+            "analyzer": "kuromoji"
+        },
+        "desc": {
+            "type": "text",
+            "analyzer": "kuromoji"
+        },
+        "cats": { // ArrayObjectでない場合は、このように指定して問題ない
+            "type": "integer"
+        }
+    }
+}
+
+GET p2_community.comm_cocolo_note_page/_mapping
+
 // POST my_index/_doc
 // {
 //     "user_name_2": "今日は本当にいい天気ですね、とてもいい日差しです"
