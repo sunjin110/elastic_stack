@@ -1,12 +1,24 @@
 # mongo connect
-mongo-url = "mongodb://mongo-rep-1:27017"
+mongo-url = "mongodb://localhost:27017"
 
 # elastic connect
 elasticsearch-urls = ["http://localhost:9200"]
 
+# よく応答するかどうかのコマンド
+verbose = true
+
+# 組み込みHTTP Server
+enable-http-server = false
+
 # コレクションからインデックスをシードする必要がある場合で、変更イベントをリスンして同期するだけではない場合は
-# MongoDBからElasticsearchにコレクションやビュー全体をコピーすることができます。
-direct-read-namespaces = ["p2_community.comm_cocolo_note_page"]
+# 同期するコレクションを指定する
+direct-read-namespaces = ["P2_COMMUNITY.COMM_COCOLO_NOTE_PAGE"]
+
+# 変更を検知するコレクションを指定する
+change-stream-namespaces = ["P2_COMMUNITY.COMM_COCOLO_NOTE_PAGE"]
+
+# 正規表現で除外するMongoコレクションを指定する
+# direct-read-dynamic-exclude-regex = '^(?!.*p2_community.comm_cocolo_note_pag).+$'
 
 # MongoDB の変更ストリームを使いたい場合は change-stream-namespaces を使います。
 # change-stream-namespaces = []
@@ -15,4 +27,4 @@ direct-read-namespaces = ["p2_community.comm_cocolo_note_page"]
 # namespace = "alma_db.user_info"
 
 # 除外するname spaceを表示
-direct-read-dynamic-exclude-regex = "p2_user*"
+# direct-read-dynamic-exclude-regex = "p2_user*"
